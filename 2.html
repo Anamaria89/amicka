@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JS Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <script src="2.js"></script>
+  <style>
+	.greska{
+		border-color:red;
+		
+	}
+	.greskaIme {
+		color: red;
+		display:none;
+		
+	}
+	.greskaEmail {
+		color: red;
+		display:none;
+	}
+	.greskaTel {
+		color: red;
+		display:none;
+	}
+	.greskaPoruka {
+		color: red;
+		display:none;
+	}
+  </style>
+</head>
+<body>
+
+<div class="container" style="width:400px">	
+	<h2 style="text-align:center">Prijava</h2>	
+	<form method="post" action="3.html" 
+	id="prijava">
+		<div class="col-sm-12">
+			<div class="form-group">
+				<label for="ime_prezime">Ime i prezime:</label>
+				<input type="text" class="form-control" id="ime_prezime">
+				<div class="greskaIme">Ovo polje je obavezno!</div>
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="text" class="form-control" id="email">
+				<div class="greskaEmail">Ovo polje je obavezno!</div>
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<div class="form-group">
+				<label for="telefon">Telefon:</label>
+				<input type="text" class="form-control" id="telefon">
+				<div class="greskaTel">Ovo polje je obavezno!</div>
+			</div>
+		</div>
+		<div class="col-sm-12">
+			<div class="form-group">
+				<label for="poruka">Poruka:</label>
+				<textarea class="form-control" id="poruka"></textarea>
+				<div class="greskaPoruka">Ovo polje je obavezno!</div>
+			</div>
+		</div>
+		<div class="col-sm-12">
+			<input type="submit" id="prijavi_se" 
+				class="btn btn-warning"
+				value="Posalji prijavu" />
+		</div>
+	</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+
+body {
+	min-height:2000px;
+	background:lightgray;
+	overflow-x:hidden;
+}
+
+article p {font-size:20px; text-align:justify;margin-left:2%;margin-right:2%;}
+
+article {margin-bottom:20px;}
+
+article h3 {text-decoration: underline;margin-left:2%;margin-right:2%;}

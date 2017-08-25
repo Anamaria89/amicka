@@ -1,0 +1,10 @@
+
+body {background-color: #e0e0eb;}
+h2 {text-align:center;margin-bottom:30px;text-decoration:underline;}
+.wrapper {margin-left:auto;margin-right:auto;margin-top:50px; width:25%;}
+
+.btn-default {color:white; background-color:black;}
+
+#email {border:2px solid darkgray;}
+
+#pwd {border:2px solid darkgray;}
